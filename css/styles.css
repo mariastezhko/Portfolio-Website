@@ -1,0 +1,68 @@
+body {
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+    font-weight: 300;
+}
+
+/*
+ *
+ * Header
+ *
+ */
+
+.title-logo {
+    margin-top: 35px;
+}
+
+.title-name {
+    font-size: 70px;
+    margin-top: 30px;
+}
+
+h4 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+hr {
+    height: 5px;
+    width: 100%;
+    position: relative;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+
+/*
+ *
+ * Featured work section
+ *
+ */
+
+ h2 {
+     color: #7d97ad;
+     margin-top: 40px;
+     margin-bottom: 20px;
+     font-size: 38px;
+     font-weight: bold;
+ }
+
+h3 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+figure {
+    display: inline-block;
+}
+
+figure figcaption {
+    text-align: center;
+}
+
+@media (max-width: 992px) {
+    .text-center {
+        text-align: left
+    }
+}
